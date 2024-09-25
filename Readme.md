@@ -1,4 +1,3 @@
-```markdown
 # Audio Analysis App using AssemblyAI API
 
 This project demonstrates how to build a comprehensive audio analysis application using the [AssemblyAI API](https://www.assemblyai.com/) and [Streamlit](https://streamlit.io/) for the web interface. The app allows you to upload an audio file and performs the following tasks:
