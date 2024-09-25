@@ -1,8 +1,9 @@
+import os
 import assemblyai as aai
 import streamlit as st
 
 # Replace with your API key
-aai.settings.api_key = "de14c1fea4b645908b1b8c5ce1d0e57a"
+aai.settings.api_key = os.getenv('API_KEY')
 
 def timestamp_string(milliseconds):
 	seconds = milliseconds // 1000
