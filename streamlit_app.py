@@ -1,6 +1,6 @@
 import os
-import assemblyai as aai
-import streamlit as st
+import assemblyai as aai # type: ignore
+import streamlit as st # type: ignore
 
 # Replace with your API key
 aai.settings.api_key = os.getenv('API_KEY')
