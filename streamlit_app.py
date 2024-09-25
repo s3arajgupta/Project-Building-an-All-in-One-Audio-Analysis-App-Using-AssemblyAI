@@ -88,18 +88,18 @@ def main():
 
 		st.divider()
 
-		message = st.text_input("Ask questions about the audio", placeholder = "What was the conversation about?")
+		# message = st.text_input("Ask questions about the audio", placeholder = "What was the conversation about?")
 
-		if message:
+		# if message:
 
-			prompt = f"Based on the transcript, answer the following question: {message}"
+		# 	prompt = f"Based on the transcript, answer the following question: {message}"
 
-			result = transcript.lemur.task(prompt, final_model=aai.LemurModel.claude3_5_sonnet)
+		# 	result = transcript.lemur.task(prompt, final_model=aai.LemurModel.claude3_5_sonnet)
 
-			st.subheader("Response")
-			with st.expander("Response"):
+		# 	st.subheader("Response")
+		# 	with st.expander("Response"):
 
-				st.write(result.response.strip())
+		# 		st.write(result.response.strip())
 
 if __name__=="__main__":
 	main()
